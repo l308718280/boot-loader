@@ -1,0 +1,9 @@
+{
+  "groups": [
+    {
+      "name": "boot.loader",
+      "type": "com.soulw.boot.loader.config.BootLoaderConfig",
+      "sourceType": "com.soulw.boot.loader.config.BootLoaderConfig"
+    }
+  ]
+}
