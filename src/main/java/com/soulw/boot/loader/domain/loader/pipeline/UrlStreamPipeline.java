@@ -93,6 +93,6 @@ public class UrlStreamPipeline extends BasePipeline {
 
     @Override
     public int getOrder() {
-        return 40;
+        return PipelineOrderEnum.URL_STREAM_PIPELINE.getCode();
     }
 }

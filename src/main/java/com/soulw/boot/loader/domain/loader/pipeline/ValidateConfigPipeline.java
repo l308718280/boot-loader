@@ -38,6 +38,6 @@ public class ValidateConfigPipeline extends BasePipeline {
 
     @Override
     public int getOrder() {
-        return 10;
+        return PipelineOrderEnum.VALIDATE_CONFIG_PIPELINE.getCode();
     }
 }

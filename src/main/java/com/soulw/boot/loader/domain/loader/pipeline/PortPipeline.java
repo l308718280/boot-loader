@@ -41,6 +41,6 @@ public class PortPipeline extends BasePipeline {
 
     @Override
     public int getOrder() {
-        return 50;
+        return PipelineOrderEnum.PORT_PIPELINE.getCode();
     }
 }

@@ -78,13 +78,12 @@ public class WrapArgsPipeline extends BasePipeline {
             }
 
             String directPath = classPathPrefix + artifactId + "/";
-            String wildcardPath = classPathPrefix + artifactId + "/*/";
-            newArgs.add("--spring.config.location=" + String.join(";", directPath, wildcardPath));
+            newArgs.add("--spring.config.location=" + directPath);
         }
     }
 
     @Override
     public int getOrder() {
-        return 30;
+        return PipelineOrderEnum.WRAP_ARGS_PIPELINE.getCode();
     }
 }

@@ -114,6 +114,6 @@ public class BootRunPipeline extends BasePipeline {
 
     @Override
     public int getOrder() {
-        return 10000;
+        return PipelineOrderEnum.BOOT_RUN_PIPELINE.getCode();
     }
 }

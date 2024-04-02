@@ -21,6 +21,10 @@ public class Context {
      */
     private String jarPath;
     /**
+     * BootLoader Jar路径
+     */
+    private String bootLoaderJarPath;
+    /**
      * 配置
      */
     private FatJarConfig config;
